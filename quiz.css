@@ -1,0 +1,40 @@
+body {
+  padding-top: 15px;
+}
+
+img {
+  width: 300px;
+  max-height: 100%;
+}
+
+.rbdTitle {
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.roboSelect {
+  width: 100%;
+}
+
+.selectDefault {
+  font-weight: 400;
+}
+
+.imgDiv {
+  height: 400px;
+  width: 400px;
+}
+
+.battleButton {
+  border-radius: 7px;
+  border: solid 2px black;
+  background-color: red;
+  width: 150px;
+  font-size: 1.25em;
+}
+
+.hidden {
+  display: none;
+}
+
