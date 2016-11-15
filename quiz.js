@@ -1,6 +1,6 @@
 //robots
 
-//type 1; decepticons: 
+//type 1; decepticons:
 //megatron
 //soundwave
 //medium hp, medium dmg
@@ -37,7 +37,7 @@ $( "#select2" )
   .change(function () {
    $( "#select2 option:selected" ).each(function() {
       p2bot = $(this).text();
-      $("#img2Div").html("<img src='" + p2bot + ".jpg'>")  
+      $("#img2Div").html("<img src='" + p2bot + ".jpg'>")
     })
 })
 
@@ -49,13 +49,14 @@ $("#battleButton").click(function () {
   } else {
     var playerName1 = $("#player1").val();
     var playerName2 = $("#player2").val();
-    // player1 = new RBD.Robots.Robofighter(playerName1) 
+    // player1 = new RBD.Robots.Robofighter(playerName1)
     // player2 = new RBD.Robots.Robofighter(playerName2)
     player1 = new RBD.Robots[p1bot](playerName1);
     player2 = new RBD.Robots[p2bot](playerName2);
     console.log(player1)
     console.log(player2)
-    $(".battleButton").toggleClass("hidden")
+    $(".battleButton").toggleClass("hidden");
+    console.log("test");
   }
 })
 
